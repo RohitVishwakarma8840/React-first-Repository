@@ -1,5 +1,8 @@
 This is a Repository to learn React js 
 
+for running this repository do 
+npm run dev
+
 
 # React + Vite
 

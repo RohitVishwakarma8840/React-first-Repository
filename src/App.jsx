@@ -13,8 +13,8 @@ function App() {
 
   return (
   <>
-  <Title/>
-  <Description/>
+  {/* <Title/> */}
+  {/* <Description/> this description is made up above  */}
   <ProductTab/>
  
 
