@@ -2,6 +2,7 @@ import "./App.css"
 import Title from "./Title.jsx"
 import Product from "./Product.jsx"
 import ProductTab from "./ProductTab.jsx"
+import MsgBox from "./MsgBox.jsx"
 
 function Description(){
 
@@ -10,13 +11,16 @@ function Description(){
 }
 
 function App() {
-
+ 
+ 
   return (
   <>
   {/* <Title/> */}
   {/* <Description/> this description is made up above  */}
   <ProductTab/>
- 
+ <MsgBox name="Rohit" textcolor="green" />
+ <MsgBox name="Enterpreneur" textcolor="pink" />
+
 
   {/* <Title/>
   <Description/>

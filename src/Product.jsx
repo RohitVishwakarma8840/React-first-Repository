@@ -7,13 +7,14 @@ function Product({title,price,features}){
  
 //  let isDiscount= price > 30000 ? "Discount is 5% " :"";
 const list=features.map((feature)=><li>{feature}</li>);
-
+ 
+let styles = { backgroundColor: price > 30000 ? "blue" : "white" };
 
 
 
 return (
 <>
-<div className="Product">
+<div className="Product" style={styles}>
 <h2>{title}</h2>
 <h3>price : {(price/2)*2}</h3>
 <p>{list}</p>
