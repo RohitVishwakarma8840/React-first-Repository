@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.ProductAmazon{
+
+border: 2px solid white ;
+border-radius: 14px;
+margin-bottom:  5px 15px;
+padding: 010px 0 10px;
+
+
+
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

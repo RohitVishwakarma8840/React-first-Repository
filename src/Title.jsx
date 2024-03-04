@@ -1,6 +1,6 @@
 function Title(){
  
-  let name="Rohit";
+  let myname="Rohit";
 
     return (
       <>
